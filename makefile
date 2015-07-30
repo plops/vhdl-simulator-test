@@ -5,3 +5,6 @@ run_adder: adder.vhdl adder_tb.vhdl
 
 view_adder: adder.vcd
 	gtkwave adder.vcd
+
+run_adder_freehdl: adder.vhdl adder_tb.vhdl
+	gvhdl adder.vhdl
